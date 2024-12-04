@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+#navbar {
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+    
+}
+
+#navbar.scrolled {
+    background-color: #FADF7F !important; 
+}
+.header {
+    position: relative;
+    overflow: hidden; 
+}
+.navbar-nav .nav-link{
+    font-family: "Nunito", sans-serif;
+    position: relative;
+    margin-right: 25px;
+    padding: 35px 0;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    outline: none;
+    transition: 0.5s;
+}
+
+.navbar.scrolled .nav-link {
+    color: #000000;
+}
+.navbar.scrolled .nav-link:hover{
+    color: #ffffff;
+}
+.navbar {
+    background-color: rgba(255, 255, 255, 0.8); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+.navbar-toggler {
+    border: none; 
+}
+
+.header-img {
+    position: relative;
+    overflow: hidden;
+}
+.box1{
+    width: auto;
+    margin-top: 45px;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+}
+.box2{
+    width: auto;
+    margin-top: 45px;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+}
+.box3{
+    width: auto;
+    margin-top: 45px;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+}
+.overlay-text {
+    color: white;
+}
+.header-img {
+    position: relative; 
+}
+.card1{
+    width: auto;
+    margin-top: 45px;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+}
+.card2{
+    width: auto;
+    margin-top: 45px;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+}
+.card3{
+    width: auto;
+    margin-top: 45px;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+}
+
+.header-img img {
+    width: 100%;
+    height: auto; 
+}
+
+.overlay-text {
+    color: white; 
+    z-index: 1;
+    text-align: center; 
+    padding: 20px; 
+}
+
+.h6-custom {
+    font-size: 25px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+.header-text{
+    font-size: 55px;
+    font-weight: bold;
+}
+.xlucky-paradise{
+    margin-top: 50px;
+    background-color: #9FEDD7;
+}
+.mt-5{
+    font-size: 19px;
+    padding-left: 20px;
+
+}
+.modal-body{
+font-size: 20px;
+}
+
+#yesButton{
+    background-color: #132F70;
+    width: 220px;
+    padding: 10px;
+    text-align: center;
+}
+#yesButton:hover{
+    background-color: #0E1B46;
+
+}
+#noButton{
+    background-color:#FE8800;
+    width: 180px;
+    padding: 10px;
+    border: none;
+}
+.custom-modal {
+    max-width: 800px;
+    width: 100%;
+}
+#noButton:hover{
+    background-color: #FF9900;
+}
+.gaming{
+    font-size: 40px;
+    color: #2C3E50;
+    font-weight:900;
+    font-family: "Nunito", sans-serif;
+    padding-left: 20px;
+
+}
+.pt-2{
+    font-weight: 900;
+    padding-top: 20px;
+    font-size: 45px;
+    color: #2C3E50;
+    font-family: "Nunito", sans-serif;
+    padding-left: 10px;
+}
+.pt-5{
+    padding-left: 10px;
+    font-family: "Nunito", sans-serif;
+
+}
+.pt-3{
+    padding-left: 10px;
+    font-family: "Nunito", sans-serif;
+
+}
+.footer{
+    background-color: #016770; 
+}
+.footer-section{
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 60px;
+    font-family: "Nunito", sans-serif;
+
+}
+#footer-section{
+    padding-top: 70px;
+    padding-left: 60px;
+}
+.d-block{
+    color: #c5c1c1;
+} 
+.d-block:hover{
+    color: #018DE8;
+}
+.hero-header {
+    background-image: url(../img/1-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-sec{
+    color: #2C3E50;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Nunito", sans-serif;
+    margin-left: 20px;
+
+}
+.mt-3{
+    margin-left: 22px;
+    font-family: "Heebo", sans-serif;
+
+}
+.footer-policy{
+    align-items: end;
+    color: #ffffff;
+
+}
+.display-3{
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+}
+#form-header{
+   font-weight: 700;
+   font-size: 40px;
+   color: #2C3E50;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+.form-control:focus{
+    box-shadow: 0 0 0 4px rgb(52, 52, 199);
+    border-color:#3f79e2; 
+};
+
+.content{
+    font-family: "Nunito", sans-serif;
+    margin-top: 80px;
+}
+
+.title-upper {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.title-upper h4 {
+    background: #ffffff;
+    color: #6552CC;
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.title-upper::before,
+.title-upper::after {
+    content: "";
+    background-color: #6552CC;
+    position: absolute;
+    height: 2px;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+.title-upper::before {
+    top: 17px;
+    width: 300px;
+}
+.title-upper::after {
+    bottom: 17px;
+    width: 330px;
+}
+.ourgames{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    background-color: #016770; 
+    padding: 20px 0; 
+}
+
+.footer a {
+    color: #c5c1c1;
+    text-align: center;
+    display: block;
+    margin: 0 auto; 
+    max-width: 200px; 
+    margin-top: 20px;
+}
+
+.footer a:hover {
+    color: skyblue; 
+}
+.btn-primary{
+    background-color: #132f70;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+}
+.btn-primary:hover{
+    background-color: #60B7FF;
+}
